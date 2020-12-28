@@ -27,6 +27,7 @@ def getData():
 
         name = str(col[0].string)
         location = str(col[1].string)
+        centimeters = str(col[2].string)
         status = str(col[3].string)
         date = str(col[4].string)
 
@@ -34,6 +35,7 @@ def getData():
         ice_dict[name]['Location'] = location
         ice_dict[name]['Status'] = status
         ice_dict[name]['Date'] = date
+        ice_dict[name]['Centimeters'] = centimeters
 
     return ice_dict
 
@@ -56,11 +58,13 @@ def createMapMarker(ice_dict):
         try:
             
             lake_status = ice_dict[lake_name]['Status']
+            lake_centi = ice_dict[lake_name]['Centimeters']
             lake_date = ice_dict[lake_name]['Date']
             lake_name = re.sub(r'\([^)]*\)', '', lake_name).strip()
             lake = geoCoder(lake_name + ", Nova Scotia")
 
             html = f'''<h4>Name:</h4> {lake_name} <br />\
+            <h4>Centimeters: </h4> {lake_centi} <br />\
             <h4>Status: </h4> {lake_status} <br />\
             <h4>Date: </h4> {lake_date} <br />\
             '''
@@ -73,8 +77,6 @@ def createMapMarker(ice_dict):
     my_map.add_child(feature_group)
     my_map.save("public/index.html")
 
-
-#getData()
 createMapMarker(getData())
 
 
