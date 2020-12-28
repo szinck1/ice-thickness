@@ -42,7 +42,7 @@ def getData():
 
 def geoCoder(location):
 
-    locator = Nominatim(user_agent="mygeocoder")
+    locator = Nominatim(user_agent="nslakes.netlify.com/steve@zinck.ca")
 
     geolocation = locator.geocode(location)
 
