@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_91db5366f3a844c3bb897ac56c272ba3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_91db5366f3a844c3bb897ac56c272ba3" ></div>
+        
+</body>
+<script>    
+    
+            var map_91db5366f3a844c3bb897ac56c272ba3 = L.map(
+                "map_91db5366f3a844c3bb897ac56c272ba3",
+                {
+                    center: [44.65107, -63.582687],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d92b0bd7a2fd4bc0b73a2b69d9947bd9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_91db5366f3a844c3bb897ac56c272ba3);
+        
+    
+            var feature_group_25347714b94e4a74bb3d49258d1cf61a = L.featureGroup(
+                {}
+            ).addTo(map_91db5366f3a844c3bb897ac56c272ba3);
+        
+    
+            var marker_3759b8c093534cc0a82246f402a314e3 = L.marker(
+                [44.6853126, -63.5749927],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_473dd38e53a64ce48a72d21b22560d93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d80f79209914d07b3f646631d2b9e0b = $(`<div id="html_1d80f79209914d07b3f646631d2b9e0b" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Albro Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_473dd38e53a64ce48a72d21b22560d93.setContent(html_1d80f79209914d07b3f646631d2b9e0b);
+        
+
+        marker_3759b8c093534cc0a82246f402a314e3.bindPopup(popup_473dd38e53a64ce48a72d21b22560d93)
+        ;
+
+        
+    
+    
+            var marker_1308a60100bb4f33b8c96bd13eee2fde = L.marker(
+                [44.6853126, -63.5749927],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_0eae707284e94460b0948f4305f7c215 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36c52cff6a734159a05600bae3c2ba04 = $(`<div id="html_36c52cff6a734159a05600bae3c2ba04" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Albro Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_0eae707284e94460b0948f4305f7c215.setContent(html_36c52cff6a734159a05600bae3c2ba04);
+        
+
+        marker_1308a60100bb4f33b8c96bd13eee2fde.bindPopup(popup_0eae707284e94460b0948f4305f7c215)
+        ;
+
+        
+    
+    
+            var marker_c60f1e5996b440798a5342f3de2cb6c3 = L.marker(
+                [44.67919205, -63.557013229723],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_126719fbb68e414786b4dbd16df2ca8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f1be73ef1114d45ac614bb0669b6aee = $(`<div id="html_9f1be73ef1114d45ac614bb0669b6aee" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Banook Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_126719fbb68e414786b4dbd16df2ca8f.setContent(html_9f1be73ef1114d45ac614bb0669b6aee);
+        
+
+        marker_c60f1e5996b440798a5342f3de2cb6c3.bindPopup(popup_126719fbb68e414786b4dbd16df2ca8f)
+        ;
+
+        
+    
+    
+            var marker_8878a27925904b9e807b3c8fa7c13fcd = L.marker(
+                [44.81504275, -63.68736425106465],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_774e44414a194953b49a493017394f2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86f8914f718c4117b4756e1880485f84 = $(`<div id="html_86f8914f718c4117b4756e1880485f84" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Barrett Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_774e44414a194953b49a493017394f2e.setContent(html_86f8914f718c4117b4756e1880485f84);
+        
+
+        marker_8878a27925904b9e807b3c8fa7c13fcd.bindPopup(popup_774e44414a194953b49a493017394f2e)
+        ;
+
+        
+    
+    
+            var marker_d63304076ea64020b76b3ebda0f80d8a = L.marker(
+                [44.6688903, -63.672051224419526],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_9828fb00cafe4fee8c2e2cd66d7fc314 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64f1fa79eaae4f7a9cc72e23c9f4fea1 = $(`<div id="html_64f1fa79eaae4f7a9cc72e23c9f4fea1" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Belchers Marsh <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_9828fb00cafe4fee8c2e2cd66d7fc314.setContent(html_64f1fa79eaae4f7a9cc72e23c9f4fea1);
+        
+
+        marker_d63304076ea64020b76b3ebda0f80d8a.bindPopup(popup_9828fb00cafe4fee8c2e2cd66d7fc314)
+        ;
+
+        
+    
+    
+            var marker_53c4514ecc07459e8038c06f0541e4f4 = L.marker(
+                [44.67395515, -63.676837905854],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_56791308f5494c66a75f9e75041a3e21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68c90a02ee6347a5aa0cd1ac676015b1 = $(`<div id="html_68c90a02ee6347a5aa0cd1ac676015b1" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Belchers Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_56791308f5494c66a75f9e75041a3e21.setContent(html_68c90a02ee6347a5aa0cd1ac676015b1);
+        
+
+        marker_53c4514ecc07459e8038c06f0541e4f4.bindPopup(popup_56791308f5494c66a75f9e75041a3e21)
+        ;
+
+        
+    
+    
+            var marker_613001b2ebc149ce81493e9ffa8e97fe = L.marker(
+                [44.67439805, -63.50942369585253],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_5482c47412fe403bacd41875deebe5fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02aa71f442dd45b196393aa85209b9f6 = $(`<div id="html_02aa71f442dd45b196393aa85209b9f6" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Bell Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_5482c47412fe403bacd41875deebe5fa.setContent(html_02aa71f442dd45b196393aa85209b9f6);
+        
+
+        marker_613001b2ebc149ce81493e9ffa8e97fe.bindPopup(popup_5482c47412fe403bacd41875deebe5fa)
+        ;
+
+        
+    
+    
+            var marker_c0a4d3b9c5324bb2932b521d7180177f = L.marker(
+                [44.66605485, -63.475770426490385],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_1ef19c1b4e474920883a013032c3279d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8869b997f3ca48808b73a4f90fb0cf94 = $(`<div id="html_8869b997f3ca48808b73a4f90fb0cf94" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Bisset Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_1ef19c1b4e474920883a013032c3279d.setContent(html_8869b997f3ca48808b73a4f90fb0cf94);
+        
+
+        marker_c0a4d3b9c5324bb2932b521d7180177f.bindPopup(popup_1ef19c1b4e474920883a013032c3279d)
+        ;
+
+        
+    
+    
+            var marker_d26b3565329449c9b9cbf4c2fc5386c0 = L.marker(
+                [44.8559471, -63.1411139],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_6751e2ba378c4a7bb397440951365cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4a838fc91914f2eb4f8fab7968b6352 = $(`<div id="html_c4a838fc91914f2eb4f8fab7968b6352" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Catamaran Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_6751e2ba378c4a7bb397440951365cb7.setContent(html_c4a838fc91914f2eb4f8fab7968b6352);
+        
+
+        marker_d26b3565329449c9b9cbf4c2fc5386c0.bindPopup(popup_6751e2ba378c4a7bb397440951365cb7)
+        ;
+
+        
+    
+    
+            var marker_312f35260fc84944b32a969d7ff689ed = L.marker(
+                [44.982485499999996, -62.325651320346154],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_a7c6f51061ae4439a4b48a9f49e1193b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_636da7e73f074c92ab3da4d76505fe62 = $(`<div id="html_636da7e73f074c92ab3da4d76505fe62" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Chocolate Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_a7c6f51061ae4439a4b48a9f49e1193b.setContent(html_636da7e73f074c92ab3da4d76505fe62);
+        
+
+        marker_312f35260fc84944b32a969d7ff689ed.bindPopup(popup_a7c6f51061ae4439a4b48a9f49e1193b)
+        ;
+
+        
+    
+    
+            var marker_f80e7cd77cc147f4a9496378749d25c3 = L.marker(
+                [44.6172862, -63.426741001888196],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_17a8ff5c5d5a45f8b591c323120219d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab7377ae4d274801936ecefb550560f7 = $(`<div id="html_ab7377ae4d274801936ecefb550560f7" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Cow Bay Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_17a8ff5c5d5a45f8b591c323120219d6.setContent(html_ab7377ae4d274801936ecefb550560f7);
+        
+
+        marker_f80e7cd77cc147f4a9496378749d25c3.bindPopup(popup_17a8ff5c5d5a45f8b591c323120219d6)
+        ;
+
+        
+    
+    
+            var marker_1d2a04e086194c6a8a146434aac6f5a9 = L.marker(
+                [45.8145577, -60.4659069],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_8697cb974f434de395b651bdf7a085c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_695e15247c50483db6da7c72a03e643d = $(`<div id="html_695e15247c50483db6da7c72a03e643d" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Cranberry Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_8697cb974f434de395b651bdf7a085c5.setContent(html_695e15247c50483db6da7c72a03e643d);
+        
+
+        marker_1d2a04e086194c6a8a146434aac6f5a9.bindPopup(popup_8697cb974f434de395b651bdf7a085c5)
+        ;
+
+        
+    
+    
+            var marker_75604014c0f041e69f6aca549a159028 = L.marker(
+                [44.5916583, -63.4983882],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_c511bb82a4d545a69520cdbbd2a8363a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db0b49b17ae04538a9eb203871674df3 = $(`<div id="html_db0b49b17ae04538a9eb203871674df3" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Doyle's Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_c511bb82a4d545a69520cdbbd2a8363a.setContent(html_db0b49b17ae04538a9eb203871674df3);
+        
+
+        marker_75604014c0f041e69f6aca549a159028.bindPopup(popup_c511bb82a4d545a69520cdbbd2a8363a)
+        ;
+
+        
+    
+    
+            var marker_0c0fb6ad489d4517b25d9a08581bc1e3 = L.marker(
+                [46.09829165, -60.210142935166544],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_e1f164cc19db4c21864364e10cfccc02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d9dd8728b484725acf5c961606fff10 = $(`<div id="html_2d9dd8728b484725acf5c961606fff10" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Duck Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_e1f164cc19db4c21864364e10cfccc02.setContent(html_2d9dd8728b484725acf5c961606fff10);
+        
+
+        marker_0c0fb6ad489d4517b25d9a08581bc1e3.bindPopup(popup_e1f164cc19db4c21864364e10cfccc02)
+        ;
+
+        
+    
+    
+            var marker_13a2ec6da6f749adb84cc7b502b6db29 = L.marker(
+                [44.5057556, -65.4728999],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_8fa859211a2841f29d8ec8639d87a16f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fb18621d4754006841352aea5b0c06e = $(`<div id="html_9fb18621d4754006841352aea5b0c06e" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Fairbanks <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_8fa859211a2841f29d8ec8639d87a16f.setContent(html_9fb18621d4754006841352aea5b0c06e);
+        
+
+        marker_13a2ec6da6f749adb84cc7b502b6db29.bindPopup(popup_8fa859211a2841f29d8ec8639d87a16f)
+        ;
+
+        
+    
+    
+            var marker_725d1b1fdb1a46d5bd212bb2c2e4a40a = L.marker(
+                [44.7775912, -63.6639856],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_1a0ccdfd6b7e417293ed13830182910f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be8e06e1ff6743418c626ada866025c7 = $(`<div id="html_be8e06e1ff6743418c626ada866025c7" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> First Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_1a0ccdfd6b7e417293ed13830182910f.setContent(html_be8e06e1ff6743418c626ada866025c7);
+        
+
+        marker_725d1b1fdb1a46d5bd212bb2c2e4a40a.bindPopup(popup_1a0ccdfd6b7e417293ed13830182910f)
+        ;
+
+        
+    
+    
+            var marker_b8fa52c112ae480da29e082419a60f9c = L.marker(
+                [44.6637083, -63.821168],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_3fec8c095dcb48b3beff20c8ed878501 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a521d89343ee42628b5c3549574b67f0 = $(`<div id="html_a521d89343ee42628b5c3549574b67f0" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Five Island Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_3fec8c095dcb48b3beff20c8ed878501.setContent(html_a521d89343ee42628b5c3549574b67f0);
+        
+
+        marker_b8fa52c112ae480da29e082419a60f9c.bindPopup(popup_3fec8c095dcb48b3beff20c8ed878501)
+        ;
+
+        
+    
+    
+            var marker_01957585bfc04bdba781a763503b43f0 = L.marker(
+                [45.3473923, -61.0146865],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_42a6e937dba24a13801dd7bc30662c79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b3817531eaa44169dbe258bcb20eaf7 = $(`<div id="html_4b3817531eaa44169dbe258bcb20eaf7" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Flag Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_42a6e937dba24a13801dd7bc30662c79.setContent(html_4b3817531eaa44169dbe258bcb20eaf7);
+        
+
+        marker_01957585bfc04bdba781a763503b43f0.bindPopup(popup_42a6e937dba24a13801dd7bc30662c79)
+        ;
+
+        
+    
+    
+            var marker_becc4667988944dd9a90a1d0cc9d47cd = L.marker(
+                [44.7623335, -62.9041717],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_7924d27546de47219592cb43308c101f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67d4a8b7cd384b6faec24d7149b3b2ad = $(`<div id="html_67d4a8b7cd384b6faec24d7149b3b2ad" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Frenchmans Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_7924d27546de47219592cb43308c101f.setContent(html_67d4a8b7cd384b6faec24d7149b3b2ad);
+        
+
+        marker_becc4667988944dd9a90a1d0cc9d47cd.bindPopup(popup_7924d27546de47219592cb43308c101f)
+        ;
+
+        
+    
+    
+            var marker_b8fd3f3d42fa47d9b611459e82955f3c = L.marker(
+                [45.42654575, -61.61282626620196],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_cc36940af81547ef8c77b8cb2591cc00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ab1a7294c134e83b6455c9d40180b44 = $(`<div id="html_3ab1a7294c134e83b6455c9d40180b44" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Frog Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_cc36940af81547ef8c77b8cb2591cc00.setContent(html_3ab1a7294c134e83b6455c9d40180b44);
+        
+
+        marker_b8fd3f3d42fa47d9b611459e82955f3c.bindPopup(popup_cc36940af81547ef8c77b8cb2591cc00)
+        ;
+
+        
+    
+    
+            var marker_29d0111c873d4893b454df6608060282 = L.marker(
+                [44.6381592, -63.7003483],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_7e4a70ecda284cb4b100458a7e7a4bcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b550cdffb5d4782aa86517aade4b2c4 = $(`<div id="html_7b550cdffb5d4782aa86517aade4b2c4" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Governor's Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_7e4a70ecda284cb4b100458a7e7a4bcf.setContent(html_7b550cdffb5d4782aa86517aade4b2c4);
+        
+
+        marker_29d0111c873d4893b454df6608060282.bindPopup(popup_7e4a70ecda284cb4b100458a7e7a4bcf)
+        ;
+
+        
+    
+    
+            var marker_532ae7f22a914acfa7fb7167b6abcd1d = L.marker(
+                [44.8931753, -63.5865512],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_e84560b2e2d24a58be1d5c49bc3b19ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bc25e31a1f94608be10143f82c57b99 = $(`<div id="html_6bc25e31a1f94608be10143f82c57b99" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Grand Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_e84560b2e2d24a58be1d5c49bc3b19ee.setContent(html_6bc25e31a1f94608be10143f82c57b99);
+        
+
+        marker_532ae7f22a914acfa7fb7167b6abcd1d.bindPopup(popup_e84560b2e2d24a58be1d5c49bc3b19ee)
+        ;
+
+        
+    
+    
+            var marker_46a1023e6e3749e5893b5ee7a1c20a38 = L.marker(
+                [44.59882705, -63.62975985033071],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_61948e7a67884f5398bae6de1aa9878a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_939cf105af7d4051a590f410ab74f713 = $(`<div id="html_939cf105af7d4051a590f410ab74f713" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Graves Oakley Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_61948e7a67884f5398bae6de1aa9878a.setContent(html_939cf105af7d4051a590f410ab74f713);
+        
+
+        marker_46a1023e6e3749e5893b5ee7a1c20a38.bindPopup(popup_61948e7a67884f5398bae6de1aa9878a)
+        ;
+
+        
+    
+    
+            var marker_db78a66b7ea841cd82eb06d51b013f88 = L.marker(
+                [44.6335984, -63.63587122623355],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_e6c8ecbb786b4640b456927235dd6545 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_831c98d31ef546258922cb46300b99b1 = $(`<div id="html_831c98d31ef546258922cb46300b99b1" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Hail Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_e6c8ecbb786b4640b456927235dd6545.setContent(html_831c98d31ef546258922cb46300b99b1);
+        
+
+        marker_db78a66b7ea841cd82eb06d51b013f88.bindPopup(popup_e6c8ecbb786b4640b456927235dd6545)
+        ;
+
+        
+    
+    
+            var marker_fdcc52c610514ce49efa1aa5138903f4 = L.marker(
+                [44.6537364, -63.74373223635483],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_e78053cc382d41b4bf9ab78d9bc5eec0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9ba1849769b451cb71107efaaa67ac9 = $(`<div id="html_a9ba1849769b451cb71107efaaa67ac9" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Half Mile Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_e78053cc382d41b4bf9ab78d9bc5eec0.setContent(html_a9ba1849769b451cb71107efaaa67ac9);
+        
+
+        marker_fdcc52c610514ce49efa1aa5138903f4.bindPopup(popup_e78053cc382d41b4bf9ab78d9bc5eec0)
+        ;
+
+        
+    
+    
+            var marker_e5c446d55609411d8c8d0e268aec8e95 = L.marker(
+                [44.7275786, -64.01987475268466],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_68b73822709b4dd38063f7f07eb489ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d29c9f86f55041b89a75bbd917a5d48d = $(`<div id="html_d29c9f86f55041b89a75bbd917a5d48d" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Hubley Mill Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_68b73822709b4dd38063f7f07eb489ed.setContent(html_d29c9f86f55041b89a75bbd917a5d48d);
+        
+
+        marker_e5c446d55609411d8c8d0e268aec8e95.bindPopup(popup_68b73822709b4dd38063f7f07eb489ed)
+        ;
+
+        
+    
+    
+            var marker_0919e0edbf7e45f2ae96984cb27cf90f = L.marker(
+                [44.6870089, -63.686834],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_2a4d2904e6144f34b9ec3a5b5aa4a2e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1e724655b3240c79e429bebb7b962dd = $(`<div id="html_d1e724655b3240c79e429bebb7b962dd" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Kearney Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_2a4d2904e6144f34b9ec3a5b5aa4a2e3.setContent(html_d1e724655b3240c79e429bebb7b962dd);
+        
+
+        marker_0919e0edbf7e45f2ae96984cb27cf90f.bindPopup(popup_2a4d2904e6144f34b9ec3a5b5aa4a2e3)
+        ;
+
+        
+    
+    
+            var marker_8057aebaccb84064b487c37b55e6bba5 = L.marker(
+                [45.32871875, -63.289191599999995],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_6380bc3ec9e146a0abb2c55ebf19893d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_076c3cd8cc1e44f1a574995bfe53d5b1 = $(`<div id="html_076c3cd8cc1e44f1a574995bfe53d5b1" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Keith's Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_6380bc3ec9e146a0abb2c55ebf19893d.setContent(html_076c3cd8cc1e44f1a574995bfe53d5b1);
+        
+
+        marker_8057aebaccb84064b487c37b55e6bba5.bindPopup(popup_6380bc3ec9e146a0abb2c55ebf19893d)
+        ;
+
+        
+    
+    
+            var marker_7572c68352224ab29a0fb2fd40e1cf5e = L.marker(
+                [44.59638605000001, -63.62018576715255],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_c80ac2ead0724f6e9b31abf5b63e4b91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12e40d587c734810a22ab4c0aa3aede1 = $(`<div id="html_12e40d587c734810a22ab4c0aa3aede1" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Kidston Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_c80ac2ead0724f6e9b31abf5b63e4b91.setContent(html_12e40d587c734810a22ab4c0aa3aede1);
+        
+
+        marker_7572c68352224ab29a0fb2fd40e1cf5e.bindPopup(popup_c80ac2ead0724f6e9b31abf5b63e4b91)
+        ;
+
+        
+    
+    
+            var marker_8fac31ad70404ad1acdbcce78b387491 = L.marker(
+                [44.83052655, -63.65476858999359],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_1f3ba70da03f4e5ca816459f62f3707e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1131131572794398947951a22edb0478 = $(`<div id="html_1131131572794398947951a22edb0478" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Kinsac Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_1f3ba70da03f4e5ca816459f62f3707e.setContent(html_1131131572794398947951a22edb0478);
+        
+
+        marker_8fac31ad70404ad1acdbcce78b387491.bindPopup(popup_1f3ba70da03f4e5ca816459f62f3707e)
+        ;
+
+        
+    
+    
+            var marker_682124994fe84398ba8aa87892344395 = L.marker(
+                [44.7232116, -63.55076215799568],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_972f353810654fecb2dad8a9c848d2bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d91dba1a3e4a4875bbd54e432f53d30d = $(`<div id="html_d91dba1a3e4a4875bbd54e432f53d30d" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Lake Charles <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_972f353810654fecb2dad8a9c848d2bd.setContent(html_d91dba1a3e4a4875bbd54e432f53d30d);
+        
+
+        marker_682124994fe84398ba8aa87892344395.bindPopup(popup_972f353810654fecb2dad8a9c848d2bd)
+        ;
+
+        
+    
+    
+            var marker_e4602f20115b436985315fc94072d804 = L.marker(
+                [44.7366029, -63.3888407],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_295be35cf75d4516bf0d8f5e5913ec17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffa68e0ec99d459ba8fb2501bea401f4 = $(`<div id="html_ffa68e0ec99d459ba8fb2501bea401f4" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Lake Echo <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_295be35cf75d4516bf0d8f5e5913ec17.setContent(html_ffa68e0ec99d459ba8fb2501bea401f4);
+        
+
+        marker_e4602f20115b436985315fc94072d804.bindPopup(popup_295be35cf75d4516bf0d8f5e5913ec17)
+        ;
+
+        
+    
+    
+            var marker_a1146c4ea98b44ba8ed6b81bae03aee4 = L.marker(
+                [44.82787175, -63.61279830608696],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_a3221c6406be4b18aef03569739dea77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0e6513525fe46978085a12f4f9661b0 = $(`<div id="html_e0e6513525fe46978085a12f4f9661b0" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Lake Fletcher <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_a3221c6406be4b18aef03569739dea77.setContent(html_e0e6513525fe46978085a12f4f9661b0);
+        
+
+        marker_a1146c4ea98b44ba8ed6b81bae03aee4.bindPopup(popup_a3221c6406be4b18aef03569739dea77)
+        ;
+
+        
+    
+    
+            var marker_d068887ab14548e998b7430578921fb3 = L.marker(
+                [44.7157511, -63.4688352],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_c88fd989860248a7bdbaae9a9129d53d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffce7bb20455425d89123c71c001b854 = $(`<div id="html_ffce7bb20455425d89123c71c001b854" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Lake Major <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_c88fd989860248a7bdbaae9a9129d53d.setContent(html_ffce7bb20455425d89123c71c001b854);
+        
+
+        marker_d068887ab14548e998b7430578921fb3.bindPopup(popup_c88fd989860248a7bdbaae9a9129d53d)
+        ;
+
+        
+    
+    
+            var marker_3c30b333d9774308918cb27f4f899c57 = L.marker(
+                [45.0031659, -62.9599002],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_06b13483d909421ea87ce2f674b5f929 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_454c45c694a349dcbd9697a3dec20a8a = $(`<div id="html_454c45c694a349dcbd9697a3dec20a8a" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Long Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_06b13483d909421ea87ce2f674b5f929.setContent(html_454c45c694a349dcbd9697a3dec20a8a);
+        
+
+        marker_3c30b333d9774308918cb27f4f899c57.bindPopup(popup_06b13483d909421ea87ce2f674b5f929)
+        ;
+
+        
+    
+    
+            var marker_19e1db30deb6444286d9c8c306c501b0 = L.marker(
+                [45.78451255, -60.16643197131414],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_f985a3ae3f3147499a98654ad3f21ed0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c3f1a5876754d84900b578cea3b8393 = $(`<div id="html_9c3f1a5876754d84900b578cea3b8393" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Long Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_f985a3ae3f3147499a98654ad3f21ed0.setContent(html_9c3f1a5876754d84900b578cea3b8393);
+        
+
+        marker_19e1db30deb6444286d9c8c306c501b0.bindPopup(popup_f985a3ae3f3147499a98654ad3f21ed0)
+        ;
+
+        
+    
+    
+            var marker_3284e326073c419199380be98706d53a = L.marker(
+                [45.194322549999995, -61.836141612537595],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_f980754212be406794568ab04664902d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efacd75dd6f142968569f76bc5c7f4d2 = $(`<div id="html_efacd75dd6f142968569f76bc5c7f4d2" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Loon Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_f980754212be406794568ab04664902d.setContent(html_efacd75dd6f142968569f76bc5c7f4d2);
+        
+
+        marker_3284e326073c419199380be98706d53a.bindPopup(popup_f980754212be406794568ab04664902d)
+        ;
+
+        
+    
+    
+            var marker_4270ddcb4ea7496e97257ecef09c148f = L.marker(
+                [44.8782566, -64.22539616298218],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_238c8fc332f74b37baba7115c743f32d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6778259c195948408642a9d5a8945d81 = $(`<div id="html_6778259c195948408642a9d5a8945d81" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> MacDonald Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_238c8fc332f74b37baba7115c743f32d.setContent(html_6778259c195948408642a9d5a8945d81);
+        
+
+        marker_4270ddcb4ea7496e97257ecef09c148f.bindPopup(popup_238c8fc332f74b37baba7115c743f32d)
+        ;
+
+        
+    
+    
+            var marker_68a3fb04610f4bb4906bba50afbe5b32 = L.marker(
+                [44.739119450000004, -63.37769718270893],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_ee5171cc550e491aaba6bc491b0a0063 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9dd38f35fae444e96d8adced9cf0035 = $(`<div id="html_f9dd38f35fae444e96d8adced9cf0035" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> McCoy's Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_ee5171cc550e491aaba6bc491b0a0063.setContent(html_f9dd38f35fae444e96d8adced9cf0035);
+        
+
+        marker_68a3fb04610f4bb4906bba50afbe5b32.bindPopup(popup_ee5171cc550e491aaba6bc491b0a0063)
+        ;
+
+        
+    
+    
+            var marker_7929ca9871774899b4b592c9b0eb6175 = L.marker(
+                [45.6152617, -62.5264791],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_fe1bac0aa0164c27ac1be62525bb8a3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ad7e352bd3f425bb632d612a3f14d48 = $(`<div id="html_6ad7e352bd3f425bb632d612a3f14d48" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> MicMac <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_fe1bac0aa0164c27ac1be62525bb8a3b.setContent(html_6ad7e352bd3f425bb632d612a3f14d48);
+        
+
+        marker_7929ca9871774899b4b592c9b0eb6175.bindPopup(popup_fe1bac0aa0164c27ac1be62525bb8a3b)
+        ;
+
+        
+    
+    
+            var marker_f75d591684df4c01a9e373811f186ca0 = L.marker(
+                [44.704481, -63.2995676],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_48446b83304645cb964acf731ee0dd27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50d0bf2119b14e65b58ca78ca7e26ebd = $(`<div id="html_50d0bf2119b14e65b58ca78ca7e26ebd" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Middle Porter's Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_48446b83304645cb964acf731ee0dd27.setContent(html_50d0bf2119b14e65b58ca78ca7e26ebd);
+        
+
+        marker_f75d591684df4c01a9e373811f186ca0.bindPopup(popup_48446b83304645cb964acf731ee0dd27)
+        ;
+
+        
+    
+    
+            var marker_3e5bdadaba7645fd88f6a40efe693db4 = L.marker(
+                [44.973921, -62.836435328623594],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_dd8fdeb8cd854976be7337114fb54fa0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd3fa68d09dc4c33a82c7569fab7f843 = $(`<div id="html_fd3fa68d09dc4c33a82c7569fab7f843" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Miller Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Tin ice Open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_dd8fdeb8cd854976be7337114fb54fa0.setContent(html_fd3fa68d09dc4c33a82c7569fab7f843);
+        
+
+        marker_3e5bdadaba7645fd88f6a40efe693db4.bindPopup(popup_dd8fdeb8cd854976be7337114fb54fa0)
+        ;
+
+        
+    
+    
+            var marker_8d157bf5b94746fb8ab1262b71871e78 = L.marker(
+                [44.69107885, -63.4422055956975],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_2148b56074c5484493a3bb0f57fb6c76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab3660025541476fad967e0bb302469a = $(`<div id="html_ab3660025541476fad967e0bb302469a" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Morash Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_2148b56074c5484493a3bb0f57fb6c76.setContent(html_ab3660025541476fad967e0bb302469a);
+        
+
+        marker_8d157bf5b94746fb8ab1262b71871e78.bindPopup(popup_2148b56074c5484493a3bb0f57fb6c76)
+        ;
+
+        
+    
+    
+            var marker_f4d71e09de8342c4bf401fe446e6444e = L.marker(
+                [45.0754958, -62.30728189683154],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_e59a0d52b3014c80a8ac84f830c3330a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f02538a7d5f749bcb45d16a1fc3aa6ca = $(`<div id="html_f02538a7d5f749bcb45d16a1fc3aa6ca" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Morris Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_e59a0d52b3014c80a8ac84f830c3330a.setContent(html_f02538a7d5f749bcb45d16a1fc3aa6ca);
+        
+
+        marker_f4d71e09de8342c4bf401fe446e6444e.bindPopup(popup_e59a0d52b3014c80a8ac84f830c3330a)
+        ;
+
+        
+    
+    
+            var marker_5235af98cb594b488392e07c7de4b292 = L.marker(
+                [45.9434149, -60.6143734],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_849ca8221b734399a440bd2bab1db7d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1f7dc524be84f7e812e5c4d6b7dbd2e = $(`<div id="html_a1f7dc524be84f7e812e5c4d6b7dbd2e" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Morris Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_849ca8221b734399a440bd2bab1db7d9.setContent(html_a1f7dc524be84f7e812e5c4d6b7dbd2e);
+        
+
+        marker_5235af98cb594b488392e07c7de4b292.bindPopup(popup_849ca8221b734399a440bd2bab1db7d9)
+        ;
+
+        
+    
+    
+            var marker_f3507313f42349658f93e6087622f105 = L.marker(
+                [44.723777, -63.42703928326284],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_eb2b74573e3f445c8c67a2d714e3a28e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7537f12278fa4900a1aa682eeb0da7f3 = $(`<div id="html_7537f12278fa4900a1aa682eeb0da7f3" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Nelson Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_eb2b74573e3f445c8c67a2d714e3a28e.setContent(html_7537f12278fa4900a1aa682eeb0da7f3);
+        
+
+        marker_f3507313f42349658f93e6087622f105.bindPopup(popup_eb2b74573e3f445c8c67a2d714e3a28e)
+        ;
+
+        
+    
+    
+            var marker_bdbbe5cb848244ae9a71323f0cbcface = L.marker(
+                [44.6750833, -63.5482991],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_f456ff1b81ed424aa797b95a674e5e9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c676a352804f423e87ec739be0fd0a95 = $(`<div id="html_c676a352804f423e87ec739be0fd0a95" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Oathill <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_f456ff1b81ed424aa797b95a674e5e9f.setContent(html_c676a352804f423e87ec739be0fd0a95);
+        
+
+        marker_bdbbe5cb848244ae9a71323f0cbcface.bindPopup(popup_f456ff1b81ed424aa797b95a674e5e9f)
+        ;
+
+        
+    
+    
+            var marker_4545e0928cb040fcb77566337593e668 = L.marker(
+                [44.7109544, -63.6877227],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_0707b606e72340389c837fc055571204 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfdc17733de94808b508c5d9d06e7084 = $(`<div id="html_cfdc17733de94808b508c5d9d06e7084" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Paper Mill Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_0707b606e72340389c837fc055571204.setContent(html_cfdc17733de94808b508c5d9d06e7084);
+        
+
+        marker_4545e0928cb040fcb77566337593e668.bindPopup(popup_0707b606e72340389c837fc055571204)
+        ;
+
+        
+    
+    
+            var marker_aedca406fc7f4ba48beb2aeecb569919 = L.marker(
+                [44.6718202, -63.53990052405996],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_065ee68b9b994fd295bbff7a0e5c66db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ea5b1de315a45599e5cabc762ba5033 = $(`<div id="html_7ea5b1de315a45599e5cabc762ba5033" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Penhorn <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_065ee68b9b994fd295bbff7a0e5c66db.setContent(html_7ea5b1de315a45599e5cabc762ba5033);
+        
+
+        marker_aedca406fc7f4ba48beb2aeecb569919.bindPopup(popup_065ee68b9b994fd295bbff7a0e5c66db)
+        ;
+
+        
+    
+    
+            var marker_c80f2fbe976944d084d66315236d8d34 = L.marker(
+                [44.7487635, -63.3023376],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_3a01280ade1c44acb54236a2e77b5b5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1da22cf08dd047c78b460fd327344e91 = $(`<div id="html_1da22cf08dd047c78b460fd327344e91" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Porter's Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_3a01280ade1c44acb54236a2e77b5b5d.setContent(html_1da22cf08dd047c78b460fd327344e91);
+        
+
+        marker_c80f2fbe976944d084d66315236d8d34.bindPopup(popup_3a01280ade1c44acb54236a2e77b5b5d)
+        ;
+
+        
+    
+    
+            var marker_e12a876bea894fc68b6d878bd04dfe87 = L.marker(
+                [44.77411645, -63.609822254278505],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_ce579853f5524a94b762fb133aaeb904 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_273623a1602f4ea1b7bce7b5ca94cfe7 = $(`<div id="html_273623a1602f4ea1b7bce7b5ca94cfe7" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Powder Mill Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice Open Water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_ce579853f5524a94b762fb133aaeb904.setContent(html_273623a1602f4ea1b7bce7b5ca94cfe7);
+        
+
+        marker_e12a876bea894fc68b6d878bd04dfe87.bindPopup(popup_ce579853f5524a94b762fb133aaeb904)
+        ;
+
+        
+    
+    
+            var marker_b8bf78cde2f14beaa97afffe16929e53 = L.marker(
+                [44.6252189, -63.6188792],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_b5cf04d6be7a4c368fda3b18d25e10d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2f9fda426194db582ffdadd678d941f = $(`<div id="html_e2f9fda426194db582ffdadd678d941f" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Punch Bowl <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_b5cf04d6be7a4c368fda3b18d25e10d2.setContent(html_e2f9fda426194db582ffdadd678d941f);
+        
+
+        marker_b8bf78cde2f14beaa97afffe16929e53.bindPopup(popup_b5cf04d6be7a4c368fda3b18d25e10d2)
+        ;
+
+        
+    
+    
+            var marker_c124f82288e34275b6336a8775e117d7 = L.marker(
+                [44.6908112, -63.543548771317525],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_9c935e493e584eb9aea7c04f6278e0d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_526f61a69b2b441f8ca652209b8e3f8c = $(`<div id="html_526f61a69b2b441f8ca652209b8e3f8c" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Red Bridge Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_9c935e493e584eb9aea7c04f6278e0d1.setContent(html_526f61a69b2b441f8ca652209b8e3f8c);
+        
+
+        marker_c124f82288e34275b6336a8775e117d7.bindPopup(popup_9c935e493e584eb9aea7c04f6278e0d1)
+        ;
+
+        
+    
+    
+            var marker_808050aab7f44491b87bca143a996f59 = L.marker(
+                [44.59615605, -63.59927164578929],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_708458c977824ef697bd2c8b521bd7e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_152e7d4ee6194598867b4713af7c61b2 = $(`<div id="html_152e7d4ee6194598867b4713af7c61b2" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Roaches Pond <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_708458c977824ef697bd2c8b521bd7e2.setContent(html_152e7d4ee6194598867b4713af7c61b2);
+        
+
+        marker_808050aab7f44491b87bca143a996f59.bindPopup(popup_708458c977824ef697bd2c8b521bd7e2)
+        ;
+
+        
+    
+    
+            var marker_5293dadc8a764db08c218a67bea2df4d = L.marker(
+                [45.177918500000004, -61.398743918493935],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_480778e1b573460691fa4e67e0f37979 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccbd301b0c464f5d86629748f63a33ec = $(`<div id="html_ccbd301b0c464f5d86629748f63a33ec" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Rocky Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_480778e1b573460691fa4e67e0f37979.setContent(html_ccbd301b0c464f5d86629748f63a33ec);
+        
+
+        marker_5293dadc8a764db08c218a67bea2df4d.bindPopup(popup_480778e1b573460691fa4e67e0f37979)
+        ;
+
+        
+    
+    
+            var marker_a459e6c2a92e4a60889ed7b3c589f8b2 = L.marker(
+                [44.662595350000004, -63.52398446618071],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_08bad75eb3784131a5ef7f1548d0342b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48bd0f7ff1404a749585a0173d51d775 = $(`<div id="html_48bd0f7ff1404a749585a0173d51d775" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Russell Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_08bad75eb3784131a5ef7f1548d0342b.setContent(html_48bd0f7ff1404a749585a0173d51d775);
+        
+
+        marker_a459e6c2a92e4a60889ed7b3c589f8b2.bindPopup(popup_08bad75eb3784131a5ef7f1548d0342b)
+        ;
+
+        
+    
+    
+            var marker_25f4bf11cd154efa8a172a629ad78eb8 = L.marker(
+                [44.67939545, -63.505057277451556],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_9c8a783c1c694e4c969c7d695a1a9a2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0efd525c1cc142c6998f5f035b5a7a3f = $(`<div id="html_0efd525c1cc142c6998f5f035b5a7a3f" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Settle Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_9c8a783c1c694e4c969c7d695a1a9a2a.setContent(html_0efd525c1cc142c6998f5f035b5a7a3f);
+        
+
+        marker_25f4bf11cd154efa8a172a629ad78eb8.bindPopup(popup_9c8a783c1c694e4c969c7d695a1a9a2a)
+        ;
+
+        
+    
+    
+            var marker_2cdc583113a0435496e62b86b4aa4af1 = L.marker(
+                [44.6754586, -63.793509],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_4fff4176d6b649fcbcaebc8b48993032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_114f8c7cb2f047c598aa0c1fbee65a43 = $(`<div id="html_114f8c7cb2f047c598aa0c1fbee65a43" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Sheldrake Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_4fff4176d6b649fcbcaebc8b48993032.setContent(html_114f8c7cb2f047c598aa0c1fbee65a43);
+        
+
+        marker_2cdc583113a0435496e62b86b4aa4af1.bindPopup(popup_4fff4176d6b649fcbcaebc8b48993032)
+        ;
+
+        
+    
+    
+            var marker_90748c60798349fc83d4e2030f272948 = L.marker(
+                [44.8180966, -63.7282357],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_f4fcb907b22147e8bd03cf0230e16fb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_582ec2e2535d4f8d8aaed8ba60e646c0 = $(`<div id="html_582ec2e2535d4f8d8aaed8ba60e646c0" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Springfield Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_f4fcb907b22147e8bd03cf0230e16fb7.setContent(html_582ec2e2535d4f8d8aaed8ba60e646c0);
+        
+
+        marker_90748c60798349fc83d4e2030f272948.bindPopup(popup_f4fcb907b22147e8bd03cf0230e16fb7)
+        ;
+
+        
+    
+    
+            var marker_9319ea0d416a41889c2088fe889afd95 = L.marker(
+                [44.840174649999994, -63.685370863856484],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_14d5d921f7554842b8fb592a7e4c7ff3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a8daa7950204014bc8ee362f0525159 = $(`<div id="html_7a8daa7950204014bc8ee362f0525159" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Tucker Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_14d5d921f7554842b8fb592a7e4c7ff3.setContent(html_7a8daa7950204014bc8ee362f0525159);
+        
+
+        marker_9319ea0d416a41889c2088fe889afd95.bindPopup(popup_14d5d921f7554842b8fb592a7e4c7ff3)
+        ;
+
+        
+    
+    
+            var marker_452c5e658d2041da9484e148700c24dd = L.marker(
+                [44.624850249999994, -63.610099334236835],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_b2ef811348184340a59ff8047a143c85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5631bcf61dc14cbdb7bd369e20df436b = $(`<div id="html_5631bcf61dc14cbdb7bd369e20df436b" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Whimsical Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_b2ef811348184340a59ff8047a143c85.setContent(html_5631bcf61dc14cbdb7bd369e20df436b);
+        
+
+        marker_452c5e658d2041da9484e148700c24dd.bindPopup(popup_b2ef811348184340a59ff8047a143c85)
+        ;
+
+        
+    
+    
+            var marker_fda2e77a041244e5927662a999020532 = L.marker(
+                [44.716241, -63.04956502644837],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_ab302d8f5d90420ea1c3265ce1d4aaf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df2cbb769b384ed6a111db750d94a995 = $(`<div id="html_df2cbb769b384ed6a111db750d94a995" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Williams Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_ab302d8f5d90420ea1c3265ce1d4aaf9.setContent(html_df2cbb769b384ed6a111db750d94a995);
+        
+
+        marker_fda2e77a041244e5927662a999020532.bindPopup(popup_ab302d8f5d90420ea1c3265ce1d4aaf9)
+        ;
+
+        
+    
+    
+            var marker_5b083fd8eee44d0ab1057a14a3c43107 = L.marker(
+                [44.7667758, -63.58384150303353],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_d700c62bfbcf442c9686ae05b39d5fa7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c351544f8de141b5aa3276fec077c62e = $(`<div id="html_c351544f8de141b5aa3276fec077c62e" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Lake William <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_d700c62bfbcf442c9686ae05b39d5fa7.setContent(html_c351544f8de141b5aa3276fec077c62e);
+        
+
+        marker_5b083fd8eee44d0ab1057a14a3c43107.bindPopup(popup_d700c62bfbcf442c9686ae05b39d5fa7)
+        ;
+
+        
+    
+    
+            var marker_a6fa9d3acd4b43ae84724a05945e2fc6 = L.marker(
+                [44.6348217, -63.48375877104973],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_6a0477d1df2342e19aebf07478f611bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cfda2c21d7c4735806220003e96965b = $(`<div id="html_8cfda2c21d7c4735806220003e96965b" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> De Said Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_6a0477d1df2342e19aebf07478f611bd.setContent(html_8cfda2c21d7c4735806220003e96965b);
+        
+
+        marker_a6fa9d3acd4b43ae84724a05945e2fc6.bindPopup(popup_6a0477d1df2342e19aebf07478f611bd)
+        ;
+
+        
+    
+    
+            var marker_7f63b466eacd4e7d990de7f5efcc9a8b = L.marker(
+                [44.78499835, -63.62698059728203],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_6f1caa10d930491293f50287c235b891 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41508c222706445aa89ea1940d22864e = $(`<div id="html_41508c222706445aa89ea1940d22864e" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Three Mile Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_6f1caa10d930491293f50287c235b891.setContent(html_41508c222706445aa89ea1940d22864e);
+        
+
+        marker_7f63b466eacd4e7d990de7f5efcc9a8b.bindPopup(popup_6f1caa10d930491293f50287c235b891)
+        ;
+
+        
+    
+    
+            var marker_e8ef4c50831e41a2bf10fcf27ee691ab = L.marker(
+                [44.8364411, -63.6060148],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_e9bf12aab4c144308cc25d950319ecfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1771b8939bfe407ba38fc0c0d76d1532 = $(`<div id="html_1771b8939bfe407ba38fc0c0d76d1532" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Fletchers Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_e9bf12aab4c144308cc25d950319ecfc.setContent(html_1771b8939bfe407ba38fc0c0d76d1532);
+        
+
+        marker_e8ef4c50831e41a2bf10fcf27ee691ab.bindPopup(popup_e9bf12aab4c144308cc25d950319ecfc)
+        ;
+
+        
+    
+    
+            var marker_e7d487e2ee5e410a926fe6f0a60a903f = L.marker(
+                [44.801309700000004, -63.23276072500092],
+                {}
+            ).addTo(feature_group_25347714b94e4a74bb3d49258d1cf61a);
+        
+    
+        var popup_2fd8b43b2fba4d69a0be6626bfe51a5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4923510053df48bbba959a917194321f = $(`<div id="html_4923510053df48bbba959a917194321f" style="width: 100.0%; height: 100.0%;"><h4>Name:</h4> Church Lake <br />            <h4>Centimeters: </h4> None <br />            <h4>Comments: </h4> Thin ice open water <br />            <h4>Date: </h4> 03/10/2020 <br />            </div>`)[0];
+            popup_2fd8b43b2fba4d69a0be6626bfe51a5c.setContent(html_4923510053df48bbba959a917194321f);
+        
+
+        marker_e7d487e2ee5e410a926fe6f0a60a903f.bindPopup(popup_2fd8b43b2fba4d69a0be6626bfe51a5c)
+        ;
+
+        
+    
+</script>
