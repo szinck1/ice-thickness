@@ -23,7 +23,7 @@ jobs:
       - name: Commit files
         run: |
           git config --local user.name  ${{ github.actor }}
-          git add ./public
+          git add ./docs
           git commit -m "Updating index.html"
       - name: Push changes  # push the output folder to your repo
         uses: ad-m/github-push-action@master
