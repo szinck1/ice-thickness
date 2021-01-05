@@ -1,9 +1,12 @@
-name: Test
+name: Build and Deploy
 
-on: [push, pull_request]
-
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: 0 */4 * * * 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
