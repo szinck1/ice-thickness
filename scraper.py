@@ -55,7 +55,7 @@ def geoCoder(location):
 def createMapMarker(ice_dict):
 
     feature_group = folium.FeatureGroup("Locations")
-    my_map = folium.Map(location=[44.651070, -63.582687], zoom_start=8)
+    my_map = folium.Map(location=[44.651070, -63.582687], zoom_start=10)
 
     for lake_name in ice_dict:
         try:
