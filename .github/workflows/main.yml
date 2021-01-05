@@ -19,4 +19,4 @@ jobs:
           pipenv install
       - name: Run the script
         run: |
-          python scraper.py 
+          pipenv run python scraper.py 
