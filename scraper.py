@@ -8,8 +8,11 @@ import geopy
 from geopy.geocoders import Nominatim
 from bs4 import BeautifulSoup
 
+
 def getData():
 
+
+    
     URL = 'https://www.halifax.ca/recreation/programs-activities/skating/ice-thickness'
 
     try:
@@ -61,7 +64,7 @@ def createMapMarker(ice_dict):
             lake_centi = ice_dict[lake_name]['Centimeters']
             lake_date = ice_dict[lake_name]['Date']
             lake_name = re.sub(r'\([^)]*\)', '', lake_name).strip()
-            lake = geoCoder(lake_name + ", Nova Scotia")
+            lake = geoCoder(lake_name)
 
             html = f'''<h4>Name:</h4> {lake_name} <br />\
             <h4>Centimeters: </h4> {lake_centi} <br />\
@@ -71,11 +74,12 @@ def createMapMarker(ice_dict):
 
             feature_group.add_child(folium.Marker(lake, popup=html))
 
-        except:
+        except Exception as e:
+            print(e)
             print("Error with: " + lake_name)
             continue
     my_map.add_child(feature_group)
-    my_map.save("public/index.html")
+    my_map.save("docs/index.html")
 
 createMapMarker(getData())
 
