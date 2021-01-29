@@ -84,6 +84,7 @@ def createMapMarker(ice_dict):
 
     lakesearch = Search(
         placeholder = "Search for a lake",
+        layer=feature_group,
         collapsed=True).add_to(my_map)
 
 if __name__ == "__main__":
