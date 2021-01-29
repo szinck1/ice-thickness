@@ -1,5 +1,6 @@
 from folium.plugins import MarkerCluster
 import folium
+from folium.plugins import Search
 import requests
 import re
 
@@ -81,7 +82,14 @@ def createMapMarker(ice_dict):
     my_map.add_child(feature_group)
     my_map.save("docs/index.html")
 
-createMapMarker(getData())
+    lakesearch = Search(
+        placeholder = "Search for a lake",
+        collapsed=True).add_to(my_map)
+
+if __name__ == "__main__":
+    data = getData()
+    createMapMarker(data)
+
 
 
 
