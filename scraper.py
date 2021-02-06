@@ -82,11 +82,6 @@ def createMapMarker(ice_dict):
     my_map.add_child(feature_group)
     my_map.save("docs/index.html")
 
-    lakesearch = Search(
-        placeholder = "Search for a lake",
-        layer=feature_group,
-        collapsed=True).add_to(my_map)
-
 if __name__ == "__main__":
     data = getData()
     createMapMarker(data)
