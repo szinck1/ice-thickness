@@ -1,4 +1,5 @@
 from folium.plugins import MarkerCluster
+from folium import plugins
 import folium
 from folium.plugins import Search
 import requests
@@ -9,13 +10,10 @@ import geopy
 from geopy.geocoders import Nominatim
 from bs4 import BeautifulSoup
 
+url = 'https://www.halifax.ca/recreation/programs-activities/skating/ice-thickness'
 
-def getData():
-
-
+def getData(url):
     
-    URL = 'https://www.halifax.ca/recreation/programs-activities/skating/ice-thickness'
-
     try:
         r = requests.get(URL)
     except requests.exceptions.RequestException as e: 
@@ -79,6 +77,9 @@ def createMapMarker(ice_dict):
             print(e)
             print("Error with: " + lake_name)
             continue
+            
+    plugins.Geocoder().add_to(my_map)
+
     my_map.add_child(feature_group)
     my_map.save("docs/index.html")
 
