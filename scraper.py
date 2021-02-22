@@ -84,7 +84,7 @@ def createMapMarker(ice_dict):
     my_map.save("docs/index.html")
 
 if __name__ == "__main__":
-    data = getData()
+    data = getData(url)
     createMapMarker(data)
 
 
