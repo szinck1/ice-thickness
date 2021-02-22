@@ -15,7 +15,7 @@ url = 'https://www.halifax.ca/recreation/programs-activities/skating/ice-thickne
 def getData(url):
     
     try:
-        r = requests.get(URL)
+        r = requests.get(url)
     except requests.exceptions.RequestException as e: 
         raise SystemExit(e)
     soup = BeautifulSoup(r.content, 'lxml')
